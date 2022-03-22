@@ -9,8 +9,6 @@ from easydict import EasyDict as edict
 from pymodaq.daq_viewer.utility_classes import comon_parameters
 
 
-
-
 class DAQ_1DViewer_Omnidriver(DAQ_Viewer_base):
     """PyMoDAQ plugin controlling spectrometers from OceanOptics and using their OmniDriver wrapper ('NETOmniDriver-NET40')
     The wrapper is interfaced using the clr package and then importing Omnidriver as a standart python package
